@@ -351,7 +351,16 @@ img {
   background: var(--dark-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+ 
 }
+
+.footer-box {
+  display: flex;
+   align-items: baseline;
+  /* justify-content: flex-start; */
+}
+
 
 .footer-title,
 .footer-title-part {
@@ -363,6 +372,28 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
   text-decoration: none;
+}
+
+.join_us_footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-right: auto;
+
+  
+}
+
+.join_us_footer > span {
+   display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#ffffff;
 }
 .address {
   font-size: 14px;
