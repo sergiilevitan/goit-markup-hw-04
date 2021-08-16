@@ -373,6 +373,9 @@ img {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+.footer-title-part {
+  color: #ffffff;
+}
 
 .join_us_footer {
   display: flex;
@@ -395,6 +398,11 @@ img {
     text-transform: uppercase;
     color:#ffffff;
 }
+.social-link-footer {
+    background-color: rgba(256, 256, 256, 0.1);
+    border-radius: 50%;
+}
+
 .address {
   font-size: 14px;
   line-height: 1.71;
